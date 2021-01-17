@@ -1,0 +1,11 @@
+{application, coinbase_price_watcher, [
+    {description, "Coinbase price watcher"},
+    {vsn, "1.0.0"},
+    {mod, {coinbase_price_watcher_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        cdt_erlang_client,
+        jsx
+    ]}
+]}.

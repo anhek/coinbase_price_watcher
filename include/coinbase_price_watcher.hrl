@@ -1,0 +1,2 @@
+-define(CPW_WS_RECEIVED, ws_received).
+-define(CPW_SHUTDOWN, cpw_shutdown).
